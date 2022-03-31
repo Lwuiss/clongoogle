@@ -1,0 +1,113 @@
+body
+    {background-color: #202124;}
+.FlexContainer 
+    {display: flex;
+    flex-direction: row-reverse;
+    background-color: #202124;
+}
+.acceder {background-color: #93baf9;
+    border-color: transparent; margin-left: 8px; font-weight: 500px; 
+    font-size: 14px; line-height: 16px;
+    margin-right: 8px; min-width: 95px; padding: 9px 23px; 
+    text-align: center;
+    border-radius: 4px; }
+.menu {display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+    background-color: #202124;
+    background-image: url(iconoap.png);
+    }
+.imagenes {
+    display: inline-block;
+    border-color: transparent; margin-left: 3px; margin-right: 3px; 
+    min-width: 40px; padding: 9px;
+    text-align: center;
+    padding-left: 1px;
+    line-height: 24px;
+    vertical-align: middle;
+    color:white
+    }
+.FlexContainer2
+    {display: flex;
+    flex-direction: column;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    background-color: #202124;
+    align-items: center;
+    flex-shrink: 0;
+    box-sizing: border-box;
+
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+}
+.imggoogle {  max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    }
+.barra {  display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+    }
+.bar {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    color: #e8eaed;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+     }
+.contenedorboton {height: 70px;
+    padding-top: 18px;
+     }
+.bg {background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    }
+.mexico {  padding: 15px 30px;
+    border-bottom: 1px solid #212327;
+    font-size: 15px;
+    color: #9aa0a6;
+    }
+.piecontenedor {display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+.enlaces {display: block;
+    padding: 15px;
+    white-space: nowrap;
+    color: #999da2;
+    }
